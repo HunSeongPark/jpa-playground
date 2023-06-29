@@ -19,13 +19,13 @@ public class MemberService {
         return member.getId();
     }
 
+    @Transactional
     public void update(Long memberId) {
-
         // find member (in persistence context)
         Member member = memberRepository.findById(memberId)
                 .orElseThrow(() -> new IllegalArgumentException("member not found"));
 
         // dirty checking
-        member.setName("change name");
+        member.setName("change");
     }
 }
