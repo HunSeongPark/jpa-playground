@@ -1,4 +1,4 @@
-package com.example.jpa_playground.dirty_checking.domain;
+package com.example.jpa_playground;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -25,5 +25,9 @@ public class Member {
     public Member(String name, Integer age) {
         this.name = name;
         this.age = age;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 }

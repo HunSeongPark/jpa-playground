@@ -1,4 +1,4 @@
-package com.example.jpa_playground.dirty_checking.domain;
+package com.example.jpa_playground;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

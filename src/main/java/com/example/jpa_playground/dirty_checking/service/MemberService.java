@@ -1,7 +1,7 @@
 package com.example.jpa_playground.dirty_checking.service;
 
-import com.example.jpa_playground.dirty_checking.domain.Member;
-import com.example.jpa_playground.dirty_checking.domain.MemberRepository;
+import com.example.jpa_playground.Member;
+import com.example.jpa_playground.MemberRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
